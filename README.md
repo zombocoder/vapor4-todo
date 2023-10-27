@@ -19,23 +19,22 @@ You can use this Docker Compose file to build and run your Vapor application in 
    ```bash
    docker-compose build
    ```
-   
+
 2. **Start the Application:**
 
-    To start your Vapor application, use the following command:
-    
+   To start your Vapor application, use the following command:
+
    ```bash
    docker-compose up -d
    ```
-   
+
 3. **Run Migrations:**
-     You can run the database migrations with the following command:
-     
-        ```bash
+   You can run the database migrations with the following command:
+
+   ```bash
    docker-compose run migrate
    ```
-   
-   
+
 ## Environment Variables
 
 This Docker Compose configuration utilizes environment variables defined in the .env file. These variables include:
@@ -51,7 +50,6 @@ This Docker Compose configuration utilizes environment variables defined in the 
 `DATABASE_PASSWORD`: Password for the PostgreSQL database.
 
 You can customize these variables in your .env file.
-
 
 ## Notes
 
